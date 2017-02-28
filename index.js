@@ -14,7 +14,7 @@ fetch('myAdder.wasm')
     document.body.appendChild(script);
 
     document.getElementById('myButton').addEventListener('click', () => {
-      const output = Module.ccall('myAdder', 'number', ['number', 'number'], [2, 2]);
+      const output = Module.ccall('myAdder', 'number', ['number', 'number'], [1, 17]);
       console.log(output);
     });
   });
