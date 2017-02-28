@@ -1,4 +1,4 @@
-adder.asm.js
-adder.js
-adder.wasm
+myAdder.asm.js
+myAdder.js
+myAdder.wasm
 node_modules/
